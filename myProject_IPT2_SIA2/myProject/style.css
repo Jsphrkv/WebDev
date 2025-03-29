@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+section {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("abc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    margin: auto;
+    width: 90%;
+}
+nav {
+    height: 80px;
+}
+nav h1 {
+    float: left;
+    font-size: 30px;
+    font-size: inline;
+    line-height: 80px;
+    color: blue;
+    text-transform: uppercase;
+}
+nav ul {
+    list-style: none;
+    float: right;
+    line-height: 80px;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    border-radius: 7px;
+    padding: 9px 5px;
+}
+nav ul li a:hover {
+    background-color: aqua;
+    transition:opacity 0.5 ease;
+}
+nav ul li .active {
+    background-color: aqua;
+    transition:opacity 0.5 ease;
+}
+.content {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh);
+}
+.content h1 {
+    font-size: 36px;
+    color: rgb(0, 255, 234);
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.content p {
+    font-size: 18px;
+    color: rgb(0, 255, 234);
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.content .btn {
+    color: rgba(5, 27, 25, 0.575);
+    padding: 25px 30px;
+    background-color: rgb(150, 150, 110);
+    border-radius: 7px;
+    text-decoration: none;
+}
+.content .btn:hover {
+  background-color: rgba(121, 128, 59, 0.678);
+  transition:opacity 0.5 ease;
+
+}
