@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <title>Luna Guitars</title>
+  
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar fixed-top bg-white border-body text-dark navbar-expand-lg border-bottom w-100">
+    <div class="container-fluid">
+      <img src="image/LUNA.W (1).png" style="width: 60px; height: 60px;">
+      <a>Luna Guitars</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-md-start" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#shop">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#profile">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-3" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <section id="hero" style="background-image: url('image/bg.jpg'); background-size: cover; background-position: center;">
+    <div class="container-fluid">
+      <div class="container py-5 min-vh-100 d-flex align-items-center justify-content-center">
+        <div class="row align-items-center">
+          <div class="col-md-4 text-center mb-4">
+            <img src="image/LUNA.W (1).png" style="max-width: 100%; height: auto;">
+          </div>
+          <div class="col-lg-5 text-center text-md-start text-dark">
+            <h1 class="display-3">Welcome to Luna Guitars</h1>
+            <h3>Where craftsmanship meets affordability.</h3>
+            <p class="lead">Whether you're a beginner or a seasoned musician, Luna Guitars offers high-quality instruments that deliver exceptional sound, reliability, and style—all at an affordable price.</p>
+            <a href="#contact" class="btn btn-dark btn-md">Order Here</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="shop" class="min-vh-100 d-flex flex-column align-items-center mt-5">
+    <div class="container-fluid mt-4">
+      <h2 class="text-center mb-3 mt-5">Shop Guitars & Accessories</h2>
+      <p class="text-center mx-auto" style="max-width: 800px;">
+          We are proud to offer an exceptional selection of high-quality, handcrafted acoustic and electric guitars that are designed to meet the needs of both beginners and seasoned musicians.
+          Choose from our collection today, and take your music to the next level with instruments and accessories that reflect the highest standards of quality and artistry.
+      </p>
+      
+      <div class="d-flex flex-wrap justify-content-center gap-5 mb-5">
+          <div class="card mb-4 shadow-sm" style="width: 18rem; height: 20rem;">
+              <div class="card-body">
+                  <h5 class="card-title">Acoustic Guitars</h5>
+                  <img src="image/img1.webp" class="img-fluid" alt="Acoustic Guitar">
+              </div>
+              <div class="dropdown text-center">
+                  <button class="btn btn-secondary dropdown-toggle mx-auto" type="button" id="dropdownAcoustic" data-bs-toggle="dropdown" aria-expanded="false">
+                      Select Option
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownAcoustic">
+                      <li><a class="dropdown-item" href="#">Grand Auditorium</a></li>
+                      <li><a class="dropdown-item" href="#">Dreadnought</a></li>
+                      <li><a class="dropdown-item" href="#">Orchestra</a></li>
+                      <li><a class="dropdown-item" href="#">Auditorium</a></li>
+                      <li><a class="dropdown-item" href="#">All...</a></li>
+                  </ul>
+              </div>
+          </div>
+  
+          <div class="card mb-4 shadow-sm" style="width: 18rem; height: 20rem;">
+              <div class="card-body">
+                  <h5 class="card-title">Electric Guitars</h5>
+                  <img src="image/img3.jpg" class="img-fluid" alt="Electric Guitar">
+              </div>
+              <div class="dropdown text-center">
+                  <button class="btn btn-secondary dropdown-toggle mx-auto" type="button" id="dropdownElectric" data-bs-toggle="dropdown" aria-expanded="false">
+                      Select Option
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownElectric">
+                      <li><a class="dropdown-item" href="#">Telecaster</a></li>
+                      <li><a class="dropdown-item" href="#">Stratocaster</a></li>
+                      <li><a class="dropdown-item" href="#">Les Paul</a></li>
+                      <li><a class="dropdown-item" href="#">PRS</a></li>
+                      <li><a class="dropdown-item" href="#">All...</a></li>
+                  </ul>
+              </div>
+          </div>
+
+          <div class="card mb-4 shadow-sm" style="width: 18rem; height: 20rem;">
+            <div class="card-body">
+                <h5 class="card-title">Bass Guitars</h5>
+                <img src="image/bss.jpg" class="img-fluid" alt="Bass Guitar">
+            </div>
+            <div class="dropdown text-center">
+                <button class="btn btn-secondary dropdown-toggle mx-auto" type="button" id="dropdownBass" data-bs-toggle="dropdown" aria-expanded="false">
+                    Select Option
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownBass">
+                    <li><a class="dropdown-item" href="#">4-String</a></li>
+                    <li><a class="dropdown-item" href="#">5-String</a></li>
+                    <li><a class="dropdown-item" href="#">Fretless</a></li>
+                    <li><a class="dropdown-item" href="#">All...</a></li>
+                </ul>
+            </div>
+        </div>
+      </div>
+
+      <div class="d-flex flex-wrap justify-content-center gap-5 mt-3">
+          <div class="card mb-4 shadow-sm" style="width: 18rem; height: 20rem;">
+              <div class="card-body">
+                  <h5 class="card-title">Amplifiers</h5>
+                  <img src="image/amp.jpg" class="img-fluid" alt="Amplifier">
+              </div>
+              <div class="dropdown text-center">
+                <button class="btn btn-secondary dropdown-toggle mx-auto" type="button" id="dropdownAmp" data-bs-toggle="dropdown" aria-expanded="false">
+                    Select Option
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownAmp">
+                    <li><a class="dropdown-item" href="#">Tube Amp</a></li>
+                    <li><a class="dropdown-item" href="#">Solid-State Amp</a></li>
+                    <li><a class="dropdown-item" href="#">Modeling Amp</a></li>
+                    <li><a class="dropdown-item" href="#">All...</a></li>
+                </ul>
+            </div>
+          </div>
+
+          <div class="card mb-4 shadow-sm" style="width: 18rem; height: 20rem;">
+            <div class="card-body">
+                <h5 class="card-title">Accessories</h5>
+                <img src="image/img4.webp" class="img-fluid" alt="Accessories">
+            </div>
+            <div class="dropdown text-center">
+                <button class="btn btn-secondary dropdown-toggle mx-auto" type="button" id="dropdownAccessories" data-bs-toggle="dropdown" aria-expanded="false">
+                    Select Option
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownAccessories">
+                    <li><a class="dropdown-item" href="#">Pedal</a></li>
+                    <li><a class="dropdown-item" href="#">Guitar Pick</a></li>
+                    <li><a class="dropdown-item" href="#">Cable</a></li>
+                    <li><a class="dropdown-item" href="#">Speaker</a></li>
+                    <li><a class="dropdown-item" href="#">All...</a></li>
+                </ul>
+            </div>
+        </div>
+      </div>
+  </div>  
+</section>
+
+  <section id="about" class="py-5 min-vh-100 d-flex align-items-center justify-content-center">
+    <div class="container">
+      <h2 class="text-center mb-4">About Us</h2>
+      <p class="lead" style="text-align: justify;">At Luna Guitars, we believe that exceptional craftsmanship and affordability should go hand in hand.
+        Our mission is to make high-quality guitars accessible to musicians at every level, whether you're just starting your musical journey or you're a seasoned professional.
+        We pride ourselves on using top-grade materials and employing expert craftsmanship to create guitars that deliver rich, resonant tones, superb playability, and striking aesthetics.
+        <br><br> By utilizing efficient production methods, we are able to offer these high-end instruments at a fraction of the price of other premium brands.
+        We are committed to ensuring that our customers experience the best of both worlds: unparalleled quality and affordability.
+        Luna Guitars is not just about making instruments—it's about empowering musicians to create their best music without compromising on quality or breaking the bank.
+        Join the Luna family and discover a guitar that truly resonates with your musical spirit, at a price you can feel good about.</p>
+    </div>
+  </section>
+
+<section id="profile" class="py-5 min-vh-100 d-flex align-items-center justify-content-center">
+  <div class="container">
+    <h2 class="text-center mb-4">Owner Profile</h2>
+    <div class="row align-items-center">
+      
+      <div class="col-md-4 text-center">
+        <img src="image/pfpfp.jpg" alt="Your Name" class="img-fluid rounded-circle mb-3" width="200">
+        <h4>Bob</h4>
+        <p class="text-muted">Owner (Guitar Enthusiast)</p>
+      </div>
+
+      <div class="col-md-8">
+        <h4>About Me</h4>
+        <p>
+          I'm a guitar enthusiast myself, and owning a guitar business is a dream come true. It’s a chance to combine my passion for music with the joy of helping others find the perfect instrument to fuel their creativity. Whether it's offering top-quality guitars, accessories, or expert advice, I get to support musicians at every stage of their journey. For me, it's more than just a business—it's about fostering a community and sharing the love of music with fellow guitar lovers.
+        </p>
+
+        <h5 class="mt-4">Skills</h5>
+        <div class="row">
+          <div class="col-md-6">
+            <ul>
+              <li> Music Theory(Basic)</li>
+              <li> Harmony</li>
+              <li> Fingerstyle Guitar</li>
+            </ul>
+          </div>
+        </div>
+
+        <h5 class="mt-4">Education</h5>
+        <ul>
+          <li>Music and Arts Degree</li>
+          <li>Music School</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+  
+<section id="contact" class="py-5 min-vh-80 d-flex align-items-center justify-content-center">
+  <div class="container">
+    <h2 class="mb-4 text-center">Contact Us</h2>
+    <p class="lead text-center">Contact us for your inquiries and follow us at our official social media account.</p>
+
+    <div class="row align-items-center">
+      <div class="col-12 col-md-6 mb-4 mb-md-0">
+        <img src="image/LUNA.W (1).png" class="img-fluid" alt="Contact Image">
+      </div>
+      
+      <div class="col-12 col-md-6">
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+            <div class="invalid-feedback">
+              Please enter your name.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+            <div class="invalid-feedback">
+              Please provide a valid email address.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Your Message</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Write your message here" required></textarea>
+            <div class="invalid-feedback">
+              Please enter your message.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="subject" class="form-label">Subject</label>
+            <select class="form-select" id="subject" required>
+              <option selected disabled value="">Choose a subject</option>
+              <option value="support">Support</option>
+              <option value="sales">Sales Inquiry</option>
+              <option value="feedback">Feedback</option>
+            </select>
+            <div class="invalid-feedback">
+              Please select a subject.
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg w-100">Send Message</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="row align-items-center mt-4">
+      <div class="col text-center">
+        <h4 class="mb-3">Follow Us</h4>
+        <div class="d-flex justify-content-center">
+          <a href="https://www.facebook.com" target="_blank" class="btn btn-primary btn-lg mx-2">
+            <i class="fab fa-facebook-f"></i> Facebook
+          </a>
+          <a href="https://www.instagram.com" target="_blank" class="btn btn-success btn-lg mx-2">
+            <i class="fab fa-instagram"></i> Instagram
+          </a>
+          <a href="https://www.tiktok.com" target="_blank" class="btn btn-dark btn-lg mx-2">
+            <i class="fab fa-tiktok"></i> TikTok
+          </a>
+          <a href="https://www.youtube.com" target="_blank" class="btn btn-danger btn-lg mx-2">
+            <i class="fab fa-youtube"></i> YouTube
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-dark text-white text-center py-3 mt-5">
+  <p>&copy; 2025 Lunaguitars. All rights reserved.</p>
+</footer>
+</body>
+</html>
